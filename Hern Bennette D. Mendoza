@@ -7,13 +7,19 @@ class Main {
 
     String fname = s.nextLine();  // Read user input
     System.out.println("Username is: " + fname);  // Output user input--Mendoza
-
+    
 	System.out.println("Enter your Section: "); //Asking for Section
 	String Sec = s.nextLine();
 	System.out.println("Your Section is: " + Sec); //Outputs user input Section--Villafuerte
+	
+	System.out.println("Enter your Address: "); //Asking for Address
+	String add = s.nextLine();
+	System.out.println("Your Address is: " + add); //Outputs user input Section--Dizon
 
     System.out.println("Enter your Age");//Asking for Age
-	  int Age = s.nextInt();
-	  System.out.println("Your Age is: " + Age); //Outputs Age--Punzalan
+	int Age = s.nextInt();
+	System.out.println("Your Age is: " + Age); //Outputs Age--Punzalan
+	  
+
   }
 }
