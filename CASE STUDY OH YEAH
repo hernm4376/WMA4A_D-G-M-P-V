@@ -19,7 +19,11 @@ class Main {
     System.out.println("Enter your Age");//Asking for Age
 	int Age = s.nextInt();
 	System.out.println("Your Age is: " + Age); //Outputs Age--Punzalan
-	  
+
+	System.out.println("Enter your Birthday: "); //Asking for Birthday
+	Int Birthday = s.nextLine();
+	System.out.println(Your Birthday is: " + Date); //Outputs Birthday--Gutierrez
+
 
   }
 }
